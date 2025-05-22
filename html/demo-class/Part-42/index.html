@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-16" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Class 42</title>
+    </head>
+    <body>
+        <form action="">
+            <fieldset>
+                <legend>Select Box</legend>
+                <div>
+                    <label for="course">Courses</label>
+                    <p>
+                        <select name="course" id="course" multiple>
+                            <option value="html" label="Programming">
+                                HTML
+                            </option>
+                            <option value="css">CSS</option>
+                            <option value="javascript" selected>
+                                JAVASCRIPT
+                            </option>
+                            <option value="php">PHP</option>
+                            <option value="laravel">LARAVEL</option>
+                        </select>
+                    </p>
+                </div>
+                <div>
+                    <label for="course">Courses</label>
+                    <p>
+                        <select name="course" id="course" multiple>
+                            <optgroup label="froned">
+                                <option value="html" label="Programming">
+                                    HTML
+                                </option>
+                                <option value="css">CSS</option>
+                                <option value="javascript" selected>
+                                    JAVASCRIPT
+                                </option>
+                            </optgroup>
+
+                            <optgroup label="backend">
+                                <option value="php">PHP</option>
+                                <option value="laravel">LARAVEL</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                </div>
+            </fieldset>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </body>
+</html>
